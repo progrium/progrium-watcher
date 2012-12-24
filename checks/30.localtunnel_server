@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+set -e
+curl -H "Host: _version.v2.localtunnel.com" --trace-ascii - --silent --fail v2.localtunnel.com
